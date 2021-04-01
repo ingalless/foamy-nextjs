@@ -3,7 +3,6 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
-  "workbench.colorTheme": "Gray Matter Light",
   "[markdown]": {
     "editor.quickSuggestions": true
   },
@@ -14,7 +13,5 @@
   },
   "files.watcherExclude": {
     "**/node_modules": true
-  },
-  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-  "vscodeMarkdownNotes.slugifyMethod": "github-slugger"
+  }
 }
