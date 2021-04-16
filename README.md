@@ -33,8 +33,9 @@ Open `index.md` in `/pages` directory and edit to your heart's content. All othe
 
 I recommend deploying to [Vercel](https://vercel.com) - the rightful home for NextJS! I hope to add a deploy button shortly to make this process easier. There are a few requirements however:
 
-1. Create a [GitHub OAuth Application](https://github.com/settings/applications/new). You'll need to copy out a client id and generate a secret for deployment.
+1. Create a [GitHub OAuth Application](https://github.com/settings/applications/new). You'll need to copy out a client id and generate a secret for deployment. The callback url is defined as `/api/auth/callback/github` by default (https://next-auth.js.org/configuration/providers)
 2. Configure the environment based on the `.env.example`
    1. `GITHUB_ID`: The OAuth Client ID
    2. `GITHUB_SECRET`: The secret generated
    3. `GITHUB_USER`: Your username (case-sensitive!!!)
+   4. `NEXTAUTH_URL`: The domain of your site
